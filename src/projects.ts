@@ -2,6 +2,8 @@ import notFlix from "../src/img/netfilx.jpg";
 import matchPic from "../src/img/matchPic.jpg";
 import wetube from "../src/img/wetube.jpg";
 import coin from "../src/img/coin.jpg";
+import rock from "../src/img/rock.jpg";
+import paint from "../src/img/paint.jpg";
 
 interface ProjectArray {
   poster: string;
@@ -107,6 +109,25 @@ export const JsProjects: ProjectArray[] = [
     website: "https://wetube-reloaded.onrender.com/",
     detail:
       "https://aware-recess-952.notion.site/b60808c65fb34eba96da7ccbf86ceb8e",
+  },
+  {
+    poster: rock,
+    title: "가위 바위 보!",
+    engTitle: "Rock Paper Scissor",
+    description: "Vanilla Js를 사용하여 가위바위보 게임을 만들었습니다.",
+    skills: ["Html", "Css", "JavaScript"],
+    github: "https://github.com/leeJeonghyunz/ropasc",
+    website: "https://leejeonghyunz.github.io/ropasc/",
+  },
+  {
+    poster: paint,
+    title: "그림판",
+    engTitle: "Drawing Board",
+    description:
+      "Vanilla Js를 사용하여 웹에서 사용할 수 있는 그림판을 만들었습니다..",
+    skills: ["Html", "Css", "JavaScript"],
+    github: "https://github.com/leeJeonghyunz/painting",
+    website: "https://leejeonghyunz.github.io/painting/",
   },
 ];
 
