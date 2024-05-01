@@ -66,5 +66,6 @@
     "@types/react-beautiful-dnd": "^13.1.8",
     "@types/react-helmet": "^6.1.11",
     "@types/react-router-dom": "^5.3.3"
-  }
+  },
+  "homepage": "https://leejeonghyunz.github.io/portfolio/"
 }

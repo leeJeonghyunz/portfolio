@@ -33,7 +33,7 @@ const ViewDetail = styled(motion.div)`
   position: absolute;
   width: 80%;
   height: 20%;
-  background-color: rgba(0, 0, 0, 0.8);
+  background-color: ${(props) => props.theme.box};
   color: ${(props) => props.theme.boxText};
   border-radius: 10px;
   top: 70px;
@@ -49,7 +49,7 @@ const TitleDiv = styled(motion.div)`
   position: absolute;
   width: 80%;
   height: 15%;
-  background-color: rgba(0, 0, 0, 0.8);
+  background-color: ${(props) => props.theme.box};
   bottom: 0;
   color: ${(props) => props.theme.boxText};
   display: flex;

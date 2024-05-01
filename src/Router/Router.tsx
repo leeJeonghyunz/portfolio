@@ -8,6 +8,7 @@ import Home from "../Router/Home";
 import { useRecoilState } from "recoil";
 import { DarkModeAtom } from "../atoms";
 import { useMediaQuery } from "react-responsive";
+import { Helmet } from "react-helmet";
 
 const Wrapper = styled.div<{ isPc: boolean }>`
   padding: ${(props) => (props.isPc ? "15px 70px" : "")};
@@ -71,6 +72,9 @@ export function Router() {
   return (
     <Wrapper isPc={isPc}>
       <BrowserRouter>
+        <Helmet>
+          <title>Portfolio</title>
+        </Helmet>
         <Navigate />
         <Switch>
           <Route path={"/about"}>

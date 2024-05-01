@@ -4,6 +4,8 @@ import wetube from "../src/img/wetube.jpg";
 import coin from "../src/img/coin.jpg";
 import rock from "../src/img/rock.jpg";
 import paint from "../src/img/paint.jpg";
+import portfolio from "../src/img/portfolio.jpg";
+import foot from "../src/img/foot.jpg";
 
 interface ProjectArray {
   poster: string;
@@ -65,7 +67,7 @@ export const ReactProjects: ProjectArray[] = [
   {
     poster: coin,
     title: "코인 API",
-    engTitle: "Coin APO",
+    engTitle: "Coin API",
     description:
       "실시간으로 다양한 코인과 그 코인의 정보를 얻을 수 있는 사이트입니다.",
     skills: [
@@ -74,41 +76,44 @@ export const ReactProjects: ProjectArray[] = [
       "responsive",
       "react-router",
       "styled-components",
-      "react-router",
-      "react-query",
       "react-helmet",
-      "Apex Charts",
     ],
     github: "https://github.com/leeJeonghyunz/coinApi",
     website: "https://leejeonghyunz.github.io/coinApi/",
     detail:
       "https://aware-recess-952.notion.site/Coin-Information-7b54d571823543d59d0fa6dcc2faa18c?pvs=4",
   },
+  {
+    poster: portfolio,
+    title: "포트폴리오",
+    engTitle: "Frontend Portfolio",
+    description:
+      "저의 포트폴리오입니다. 총 세개의 페이지로 이루어져 있으며 포트폴리오 포함 7개의 프로젝트가 있습니다. 반응형과 Dark모드 기능이 존재합니다.",
+    skills: [
+      "React",
+      "TypeScript",
+      "responsive",
+      "react-router",
+      "styled-components",
+      "react-router",
+      "react-helmet",
+      "framer-motion",
+    ],
+    github: "https://github.com/leeJeonghyunz/portfolio",
+    website: "https://leejeonghyunz.github.io/portfolio/",
+  },
 ];
 
 export const JsProjects: ProjectArray[] = [
   {
-    poster: wetube,
-    title: "유튜브 클론코딩",
-    engTitle: "Youtube Clone Coding",
+    poster: foot,
+    title: "FootballTube",
+    engTitle: "FootballTube",
     description:
-      "JavaScript와 Pug템플릿을 이용하여 유튜브 클론코딩 사이트를 만들었습니다. Node.js로 서버를 개발하고 webpack으로 프론트엔드 개발을 하였습니다. 파일들은 MongoDB와 AWS에 존재합니다.",
-    skills: [
-      "Node.JS",
-      "Express",
-      "Pug",
-      "Scss",
-      "MongoDB",
-      "AWS",
-      "Babel",
-      "Webpack",
-      "Multer",
-      "MVC",
-    ],
-    github: "https://github.com/leeJeonghyunz/wetube",
-    website: "https://wetube-reloaded.onrender.com/",
-    detail:
-      "https://aware-recess-952.notion.site/b60808c65fb34eba96da7ccbf86ceb8e",
+      "Vanilla Js를 사용하여 축구선수의 유튜브 영상이 나오도록 코딩하였습니다.",
+    skills: ["Html", "Css", "JavaScript"],
+    github: "https://github.com/leeJeonghyunz/football",
+    website: "https://leejeonghyunz.github.io/football/",
   },
   {
     poster: rock,

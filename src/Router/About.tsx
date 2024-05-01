@@ -5,8 +5,13 @@ import css from "../img/skills/css.png";
 import js from "../img/skills/js.png";
 import react from "../img/skills/react.png";
 import ts from "../img/skills/ts.png";
-import node from "../img/skills/node.png";
-import mongodb from "../img/skills/mongodb.png";
+import router from "../img/lib/router.png";
+import query from "../img/lib/query.png";
+import recoil from "../img/lib/recoil.png";
+import fMotion from "../img/lib/motion.png";
+import style from "../img/lib/style.png";
+import swiper from "../img/lib/swiper.png";
+
 import { motion } from "framer-motion";
 import { useMediaQuery } from "react-responsive";
 
@@ -152,14 +157,26 @@ export default function About() {
                       </IconWrapper>
                     </SkillBox>
                     <SkillBox>
-                      <Skill>Backend & Database</Skill>
+                      <Skill>Library</Skill>
                       <Hr />
                       <IconWrapper>
                         <IconBox variants={divVariant}>
-                          <Icon src={node} alt="" />
+                          <Icon src={router} alt="" />
                         </IconBox>
                         <IconBox variants={divVariant}>
-                          <Icon src={mongodb} alt="" />
+                          <Icon src={query} alt="" />
+                        </IconBox>{" "}
+                        <IconBox variants={divVariant}>
+                          <Icon src={recoil} alt="" />
+                        </IconBox>{" "}
+                        <IconBox variants={divVariant}>
+                          <Icon src={style} alt="" />
+                        </IconBox>{" "}
+                        <IconBox variants={divVariant}>
+                          <Icon src={fMotion} alt="" />
+                        </IconBox>{" "}
+                        <IconBox variants={divVariant}>
+                          <Icon src={swiper} alt="" />
                         </IconBox>
                       </IconWrapper>
                     </SkillBox>
@@ -208,14 +225,26 @@ export default function About() {
                   </IconWrapper>
                 </SkillBox>
                 <SkillBox isMobile={isMobile}>
-                  <Skill>Backend & Database</Skill>
+                  <Skill>Library</Skill>
                   <Hr />
                   <IconWrapper>
-                    <IconBox variants={divVariant} isMobile={isMobile}>
-                      <Icon src={node} alt="" />
+                    <IconBox variants={divVariant}>
+                      <Icon src={router} alt="" />
                     </IconBox>
-                    <IconBox variants={divVariant} isMobile={isMobile}>
-                      <Icon src={mongodb} alt="" />
+                    <IconBox variants={divVariant}>
+                      <Icon src={query} alt="" />
+                    </IconBox>{" "}
+                    <IconBox variants={divVariant}>
+                      <Icon src={recoil} alt="" />
+                    </IconBox>{" "}
+                    <IconBox variants={divVariant}>
+                      <Icon src={style} alt="" />
+                    </IconBox>{" "}
+                    <IconBox variants={divVariant}>
+                      <Icon src={fMotion} alt="" />
+                    </IconBox>{" "}
+                    <IconBox variants={divVariant}>
+                      <Icon src={swiper} alt="" />
                     </IconBox>
                   </IconWrapper>
                 </SkillBox>
