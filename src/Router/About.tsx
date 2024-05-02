@@ -156,30 +156,6 @@ export default function About() {
                         </IconBox>
                       </IconWrapper>
                     </SkillBox>
-                    <SkillBox>
-                      <Skill>Library</Skill>
-                      <Hr />
-                      <IconWrapper>
-                        <IconBox variants={divVariant}>
-                          <Icon src={router} alt="" />
-                        </IconBox>
-                        <IconBox variants={divVariant}>
-                          <Icon src={query} alt="" />
-                        </IconBox>{" "}
-                        <IconBox variants={divVariant}>
-                          <Icon src={recoil} alt="" />
-                        </IconBox>{" "}
-                        <IconBox variants={divVariant}>
-                          <Icon src={style} alt="" />
-                        </IconBox>{" "}
-                        <IconBox variants={divVariant}>
-                          <Icon src={fMotion} alt="" />
-                        </IconBox>{" "}
-                        <IconBox variants={divVariant}>
-                          <Icon src={swiper} alt="" />
-                        </IconBox>
-                      </IconWrapper>
-                    </SkillBox>
                   </Li>
                 </Ul>
               </Wrapper>
@@ -221,30 +197,6 @@ export default function About() {
                     </IconBox>
                     <IconBox variants={divVariant} isMobile={isMobile}>
                       <Icon src={ts} alt="" />
-                    </IconBox>
-                  </IconWrapper>
-                </SkillBox>
-                <SkillBox isMobile={isMobile}>
-                  <Skill>Library</Skill>
-                  <Hr />
-                  <IconWrapper>
-                    <IconBox variants={divVariant}>
-                      <Icon src={router} alt="" />
-                    </IconBox>
-                    <IconBox variants={divVariant}>
-                      <Icon src={query} alt="" />
-                    </IconBox>{" "}
-                    <IconBox variants={divVariant}>
-                      <Icon src={recoil} alt="" />
-                    </IconBox>{" "}
-                    <IconBox variants={divVariant}>
-                      <Icon src={style} alt="" />
-                    </IconBox>{" "}
-                    <IconBox variants={divVariant}>
-                      <Icon src={fMotion} alt="" />
-                    </IconBox>{" "}
-                    <IconBox variants={divVariant}>
-                      <Icon src={swiper} alt="" />
                     </IconBox>
                   </IconWrapper>
                 </SkillBox>
